@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page">
+        <nav class="page__menu page__custom-settings menu">
+          <ul class="menu__list r-list">
+            <li class="menu__group"><a href="#1" class="menu__link r-link text-underlined">Home</a></li>
+            <li class="menu__group"><a href="#2" class="menu__link r-link text-underlined">Products</a></li>
+            <li class="menu__group"><a href="#3" class="menu__link r-link text-underlined">Form</a></li>
+          </ul>
+        </nav>
+    </div>
+    <br>
+    <div class="box">
+        <img src="https://media.crocs.com/images/t_B2B/f_auto%2Cq_auto/products/10012550_001_ALT100/crocs-rick-and-morty-morty" class="rotate">
+    </div>
+
+    <div class="responsive-two-column-grid">
+        <div class="column">
+            <img src="https://i.pinimg.com/originals/c2/01/a3/c201a32baab193dd886220fe5f48a974.png">
+            <p>Image 1</p>
+        </div>
+        <div class="column">
+            <img src="https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=425,format=auto/sites/default/files/styles/768x768/public/d8/images/canvas/2021/10/30/85f2cb5f-44f8-4f2f-a813-63e657e11acc_5065cac7.jpg?itok=OJkRN93b&v=1635566576">
+            <p>Image 2</p>
+        </div>
+    </div>
+
+    <div class="container" id="3">
+        <form action="/action_page.php">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">First Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Last Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="country">Country</label>
+            </div>
+            <div class="col-75">
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Subject</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+</body>
+<script src="index.js"></script>
+</html>
