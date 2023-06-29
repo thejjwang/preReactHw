@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="page">
+    <div class="page" id="1">
         <nav class="page__menu page__custom-settings menu">
           <ul class="menu__list r-list">
             <li class="menu__group"><a href="#1" class="menu__link r-link text-underlined">Home</a></li>
             <li class="menu__group"><a href="#2" class="menu__link r-link text-underlined">Products</a></li>
-            <li class="menu__group"><a href="#3" class="menu__link r-link text-underlined">Form</a></li>
-            <li class="menu__group"><a href="#4" class="menu__link r-link text-underlined">Footer</a></li>
+            <li class="menu__group"><a href="#3" class="menu__link r-link text-underlined">Slideshow</a></li>
+            <li class="menu__group"><a href="#4" class="menu__link r-link text-underlined">Form</a></li>
+            <li class="menu__group"><a href="#5" class="menu__link r-link text-underlined">Footer</a></li>
           </ul>
         </nav>
     </div>
@@ -22,7 +23,7 @@
         <img src="https://media.crocs.com/images/t_B2B/f_auto%2Cq_auto/products/10012550_001_ALT100/crocs-rick-and-morty-morty" class="rotate">
     </div>
 
-    <div class="responsive-two-column-grid">
+    <div class="responsive-two-column-grid" id="2">
         <div class="column">
             <img src="https://i.pinimg.com/originals/c2/01/a3/c201a32baab193dd886220fe5f48a974.png">
             <p>Image 1</p>
@@ -33,7 +34,18 @@
         </div>
     </div>
 
-    <div class="container" id="3">
+    <div id="stage">
+      <a href="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg"><img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" width="360" height="270"></a>
+      <a href="https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8="><img src="https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=" width="360" height="270"></a>
+      <a href="https://www.bnf.fr/sites/default/files/2019-10/btv1b8457904c_f1.jpg"><img src="https://www.bnf.fr/sites/default/files/2019-10/btv1b8457904c_f1.jpg" width="360" height="270"></a>
+      <a href="https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510_1280.jpg"><img src="https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510  _1280.jpg" width="360" height="270"></a>
+      <a href="https://media.istockphoto.com/id/1146517111/photo/taj-mahal-mausoleum-in-agra.jpg?s=612x612&w=0&k=20&c=vcIjhwUrNyjoKbGbAQ5sOcEzDUgOfCsm9ySmJ8gNeRk="><img src="https://media.istockphoto.com/id/1146517111/photo/taj-mahal-mausoleum-in-agra.jpg?s=612x612&w=0&k=20&c=vcIjhwUrNyjoKbGbAQ5sOcEzDUgOfCsm9ySmJ8gNeRk=" width="360" height="270"></a>
+      <a href="https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg"><img src="https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg" width="360" height="270"></a>
+      <a href="https://images.ctfassets.net/hrltx12pl8hq/3Z1N8LpxtXNQhBD5EnIg8X/975e2497dc598bb64fde390592ae1133/spring-images-min.jpg"><img src="https://images.ctfassets.net/hrltx12pl8hq/3Z1N8LpxtXNQhBD5EnIg8X/975e2497dc598bb64fde390592ae1133/spring-images-min.jpg" width="360" height="270"></a>
+      <a href="https://www.befunky.com/images/prismic/1f427434-7ca0-46b2-b5d1-7d31843859b6_funky-focus-red-flower-field-after.jpeg?auto=avif,webp&format=jpg&width=863"><img src="https://www.befunky.com/images/prismic/1f427434-7ca0-46b2-b5d1-7d31843859b6_funky-focus-red-flower-field-after.jpeg?auto=avif,webp&format=jpg&width=863" width="360" height="270"></a>
+    </div>
+
+    <div class="container" id="4">
         <form action="/action_page.php">
           <div class="row">
             <div class="col-25">
@@ -76,6 +88,10 @@
           </div>
         </form>
       </div>
+
+      <footer id="5">
+        <p>Copyright &copy; JJ Wang</p>
+      </footer>
 </body>
 <script src="index.js"></script>
 </html>
